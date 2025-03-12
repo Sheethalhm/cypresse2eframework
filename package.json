@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress run",
     "hello": "echo Hello world",
-    "cy-test": "cypress run"
+    "cy-test": "cypress run",
+    "test:chrome": "npx cypress run --spec cypress/e2e/topics/Alerts.cy.js --browser chrome",
+    "test:cloud": "npx cypress run --spec cypress/e2e/topics/Alerts.cy.js --record --key dd5745fd-78fa-4ee8-b4fd-d606364132c4"
   },
   "keywords": [],
   "author": "",

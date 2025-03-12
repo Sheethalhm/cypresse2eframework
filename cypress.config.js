@@ -21,7 +21,7 @@ module.exports = defineConfig({
   e2e: {
     watchForFileChanges : true,
     defaultCommandTimeout: 4000,
-    video: true,
+    //video: true,
     setupNodeEvents(on, config) {
       on('task', {downloadFile}),
       require('cypress-mochawesome-reporter/plugin')(on);
