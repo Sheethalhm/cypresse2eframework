@@ -1,0 +1,16 @@
+{
+    "productDetails": [
+        {
+        "product": "laptop",
+        "category": "electronics"
+        },
+        {
+        "product": "mobile",
+        "category": "electronics"
+        },
+        {
+        "product": "shoes",
+        "category": "clothing"
+        }
+    ]
+}
