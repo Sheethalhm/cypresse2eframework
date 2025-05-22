@@ -7,6 +7,3 @@ it("Google Search", function(){
     //cy.contains('videos').click()
 })
 
-//it("Doodle Search", () => {
-    //cy.visit("https://google.com")
-//})
